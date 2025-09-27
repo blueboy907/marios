@@ -1,0 +1,32 @@
+/* Custom CSS for Mario's Barber Shop - Center Icons Only */
+
+/* Center feature icons in the features block - targeting the specific Hugo Blox structure */
+.blox-features .flex.justify-center.items-center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+}
+
+/* Ensure SVG icons are centered within their containers */
+.blox-features svg {
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+/* Additional targeting for the icon container divs */
+.blox-features div[class*="flex justify-center items-center"] {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+}
+
+/* Target the specific icon container classes */
+.blox-features .w-10.h-10.rounded-full,
+.blox-features .lg\\:h-12.lg\\:w-12 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+}

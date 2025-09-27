@@ -64,24 +64,36 @@ sections:
       title: Menu
       text: We serve children and adults of any age
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+        - name: <center>Haircuts</center>
+          icon: scissors
+          description: |
+            <br>
+            <p>Kid's Cut: <span style="float: right;"><b>$20</b></span></p>
+            <p>&nbsp</p>
+            <p>Adult's Cut: <span style="float: right;"><b>$25</b></span></p>
+            <p>&nbsp</p>
+            <p>Senior's Cut: <span style="float: right;"><b>$20</b></span></p>
+        - name: <center>Color & Styling</center>
+          icon: paint-brush
+          description: |
+            <br>
+            <p>Color: <span style="float: right;"><b>$45+</b></span></p>
+            <p>&nbsp</p>
+            <p>Blowout (Medium): <span style="float: right;"><b>$30</b></span></p>
+            <p>Blowout (Long): <span style="float: right;"><b>$45+</b></span></p>
+            <p>&nbsp</p>
+            <p>Deep Condition: <span style="float: right;"><b>$20</b></span></p>
+            <p>&nbsp</p>
+            <p>Keratin: <span style="float: right;"><b>$150</b></span></p>
+        - name: <center>Beard</center>
+          icon: face-smile
+          description: |
+            <br>
+            <p>Beard Trim: <span style="float: right;"><b>$10</b></span></p>
+            <p>&nbsp</p>
+            <p>Beard Shave: <span style="float: right;"><b>$10</b></span></p>
+            <p>&nbsp</p>
+            <p>Beard Shampoo: <span style="float: right;"><b>$5</b></span></p>
   - block: cta-image-paragraph
     id: solutions
     content:
