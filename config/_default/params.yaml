@@ -39,7 +39,7 @@ header:
       filename: "logo.svg"
     button:
       enable: true
-      text: "Get Started"
+      text: "Book Now"
       url: "https://hugoblox.com/templates/"
     show_search: true
     show_theme_chooser: true
@@ -47,7 +47,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} Marios Unisex Barber Shop'
 
 # Localization
 locale:
