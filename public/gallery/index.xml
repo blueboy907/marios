@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galleries | Creator&#39;s Landing Page | Hugo Theme</title>
+    <link>https://example.com/gallery/</link>
+      <atom:link href="https://example.com/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <description>Galleries</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/logo.svg</url>
+      <title>Galleries</title>
+      <link>https://example.com/gallery/</link>
+    </image>
+    
+    <item>
+      <title>Barber Shop Interior</title>
+      <link>https://example.com/gallery/barber-shop-interior/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/gallery/barber-shop-interior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coffee Break</title>
+      <link>https://example.com/gallery/coffee-break/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/gallery/coffee-break/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customer Testimonial</title>
+      <link>https://example.com/gallery/customer-testimonial/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/gallery/customer-testimonial/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
