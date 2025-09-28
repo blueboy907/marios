@@ -46,9 +46,9 @@ sections:
         - statistic: '50+'
           description: |
             5-star reviews on Google
-        - statistic: '8 years'
+        - statistic: '2018'
           description: |
-            in New Milford, NJ
+            opened in New Milford, NJ
     design:
       # Section background color (CSS class)
       css_class: 'bg-gray-100 dark:bg-gray-900'
@@ -91,28 +91,6 @@ sections:
             <p>Beard Shave: <span style="float: right;"><b>$10</b></span></p>
             <p>&nbsp</p>
             <p>Beard Shampoo: <span style="float: right;"><b>$5</b></span></p>
-  - block: markdown
-    id: gallery
-    content:
-      title: Photo Gallery
-      text: |
-        <div class="gallery-container" style="display: flex; overflow-x: auto; gap: 1rem; padding: 1rem 0; scroll-behavior: smooth;">
-          <div class="gallery-item" style="flex: 0 0 auto; width: 300px; text-align: center;">
-            <img src="/assets/media/marios_barber_shop_interior.jpg" alt="Barber Shop Interior" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Barber Shop Interior</p>
-          </div>
-          <div class="gallery-item" style="flex: 0 0 auto; width: 300px; text-align: center;">
-            <img src="/assets/media/coffee.jpg" alt="Coffee Break" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Coffee Break</p>
-          </div>
-          <div class="gallery-item" style="flex: 0 0 auto; width: 300px; text-align: center;">
-            <img src="/assets/media/testimonial-1.jpg" alt="Customer Testimonial" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Customer Testimonial</p>
-          </div>
-        </div>
-    design:
-      columns: '1'
-      css_class: 'bg-gray-50 dark:bg-gray-800'
   - block: cta-image-paragraph
     id: solutions
     content:
@@ -148,8 +126,7 @@ sections:
         padding: ['6rem', 0, 0, 0]
   - block: cta-card
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
+      text: We accept walk-ins and appointments!<br>To schedule an appointment, call (201) 986-0250 or book below.
       button:
         text: Book Now
         url: https://hugoblox.com/templates/

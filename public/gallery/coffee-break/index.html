@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: September 27, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: September 28, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="light">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58236&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:58236/gallery/coffee-break/" />
+  <link rel="alternate" hreflang="en-us" href="https://example.com/gallery/coffee-break/" />
 
   
   
@@ -164,7 +164,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_c545d605fbaba839.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_b7aec86dcb688f0.png" />
 
-  <link rel="canonical" href="http://localhost:58236/gallery/coffee-break/" />
+  <link rel="canonical" href="https://example.com/gallery/coffee-break/" />
 
   
   
@@ -191,10 +191,10 @@
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Creator&#39;s Landing Page | Hugo Theme" />
-  <meta property="og:url" content="http://localhost:58236/gallery/coffee-break/" />
+  <meta property="og:url" content="https://example.com/gallery/coffee-break/" />
   <meta property="og:title" content="Coffee Break | Creator&#39;s Landing Page | Hugo Theme" />
-  <meta property="og:description" content="" /><meta property="og:image" content="http://localhost:58236/media/logo.svg" />
-    <meta property="twitter:image" content="http://localhost:58236/media/logo.svg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://example.com/media/logo.svg" />
+    <meta property="twitter:image" content="https://example.com/media/logo.svg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -349,24 +349,6 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
   
   
   
@@ -395,89 +377,6 @@
 
 
 
-
-
-
-<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
-
-
-<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
-
-
-<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
-
-<style>
-  html.dark {
-    --pagefind-ui-primary: #eeeeee;
-    --pagefind-ui-text: #eeeeee;
-    --pagefind-ui-background: #152028;
-    --pagefind-ui-border: #152028;
-    --pagefind-ui-tag: #152028;
-  }
-
-   
-  .search-close > svg {
-    height: calc(64px * var(--pagefind-ui-scale));
-    width: calc(64px * var(--pagefind-ui-scale));
-  }
-</style>
-
-<script>
-  
-  let searchWrapper = null;
-
-  window.addEventListener('DOMContentLoaded', (event) => {
-    
-    new PagefindUI({
-      element: "#search",
-      showSubResults: true,
-      baseUrl: window.hbb.pagefind.baseUrl,
-      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
-    });
-
-    
-    searchWrapper = document.getElementById('search-wrapper');
-
-    
-    let triggers = document.querySelectorAll('[data-search-toggle]');
-    triggers.forEach(trigger =>
-      trigger.addEventListener('click', handleSearchToggle)
-    );
-  });
-
-  function handleSearchToggle(event) {
-    if (!searchWrapper) return;
-
-    const isHidden = searchWrapper.classList.contains('hidden');
-    searchWrapper.classList.toggle('hidden');
-    document.body.style.overflow = isHidden ? 'hidden' : '';
-
-    const searchInput = searchWrapper.querySelector("input");
-    if (searchInput) {
-      searchInput.value = "";
-      searchInput.focus();
-    }
-
-    if (!searchWrapper.classList.contains('hidden')) {
-      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
-
-      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
-        clearTrigger.setAttribute('listenerOnClick', 'true');
-
-        clearTrigger.addEventListener('click', () => {
-          searchInput.focus();
-        });
-      }
-    }
-  }
-
-  
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
-      searchWrapper.classList.add('hidden');
-    }
-  });
-</script>
 
 
 
@@ -502,8 +401,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.0ed4d98c2ec829e8c1c46ba34da4bda53140c37a18959149a1111383c65aa3e4.js"
+    integrity="sha256-DtTZjC7IKejBxGujTaS9pTFAw3oYlZFJoRETg8Zao&#43;Q="
   ></script>
 
   
@@ -662,39 +561,8 @@
       
       
       
-      <button
-        aria-label="toggle search"
-        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
-        data-search-toggle>
-        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-      </button>
-      
 
       
-      
-      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
-            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
-        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
-          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-               stroke-linejoin="round" class="dark:hidden">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-          </svg>
-          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-          </svg>
-        </button>
-      </div>
       
 
       
@@ -715,26 +583,6 @@
   </nav>
 </header>
 
-<div
-  id="search-wrapper"
-  class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"
->
-  <div class="flex justify-end p-3">
-    <button
-      aria-label="search"
-      class="search-close text-black hover:text-primary dark:text-white"
-      data-search-toggle
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-      </svg>
-    </button>
-  </div>
-
-  <div id="search" class="flex-1 overflow-y-auto p-3">
-    
-  </div>
-</div>
 
 
         
@@ -1000,7 +848,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A58236%2Fgallery%2Fcoffee-break%2F&amp;text=Coffee&#43;Break"
+    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fgallery%2Fcoffee-break%2F&amp;text=Coffee&#43;Break"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1018,7 +866,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A58236%2Fgallery%2Fcoffee-break%2F&amp;t=Coffee&#43;Break"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fgallery%2Fcoffee-break%2F&amp;t=Coffee&#43;Break"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1038,7 +886,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=Coffee%20Break&amp;body=http%3A%2F%2Flocalhost%3A58236%2Fgallery%2Fcoffee-break%2F"
+    href="mailto:?subject=Coffee%20Break&amp;body=https%3A%2F%2Fexample.com%2Fgallery%2Fcoffee-break%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1056,7 +904,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A58236%2Fgallery%2Fcoffee-break%2F&amp;title=Coffee&#43;Break"
+    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fgallery%2Fcoffee-break%2F&amp;title=Coffee&#43;Break"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1074,7 +922,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=Coffee&#43;Break%20http%3A%2F%2Flocalhost%3A58236%2Fgallery%2Fcoffee-break%2F"
+    href="whatsapp://send?text=Coffee&#43;Break%20https%3A%2F%2Fexample.com%2Fgallery%2Fcoffee-break%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1124,7 +972,7 @@
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="http://localhost:58236/" class="no-underline">
+      <a href="https://example.com/" class="no-underline">
       吳健雄
       </a>
     </div>

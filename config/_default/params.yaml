@@ -13,8 +13,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
+    org_name: 'Marios Unisex Barber Shop'
+    description: 'We are a unisex salon and barber shop located in New Milford, NJ.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -41,8 +41,8 @@ header:
       enable: true
       text: "Book Now"
       url: "https://hugoblox.com/templates/"
-    show_search: true
-    show_theme_chooser: true
+    show_search: false
+    show_theme_chooser: false
 
 # Site footer
 footer:
