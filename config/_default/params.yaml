@@ -34,13 +34,14 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: ""
+      text: "Mario's Unisex Barber Shop"
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      # filename: "logo.svg"
     button:
       enable: true
       text: "Book Now"
-      url: "https://hugoblox.com/templates/"
+      url: "https://calendar.app.google/sPvzBFzkmxgMqemh8"
+      target: "_blank"
     show_search: false
     show_theme_chooser: false
 

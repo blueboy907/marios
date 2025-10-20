@@ -14,7 +14,7 @@ sections:
       text: Proudly cutting hair in New Milford, NJ since 2018
       primary_action:
         text: Book Now
-        url: https://hugoblox.com/templates/
+        url: https://calendar.app.google/sPvzBFzkmxgMqemh8
         icon: calendar
       secondary_action:
         text: Menu
@@ -58,7 +58,7 @@ sections:
   - block: features
     id: menu
     content:
-      title: Menu
+      title: Services
       text: We serve children and adults of any age
       items:
         - name: <center>Haircuts</center>
@@ -95,18 +95,19 @@ sections:
     id: solutions
     content:
       items:
-        - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
-          feature_icon: bolt
+        - title: About Us
+          text: Get your next haircut at Mario's, serving New Milford and all of Bergen County!
+          feature_icon: scissors
           features:
-            - 'Dedicated support channel'
-            - '3,000+ users on Discord'
-            - 'Share your site and get feedback'
+            - 'Haircuts by owner with over 25 years of experience'
+            - 'Great prices and efficient services'
+            - 'We accept children and adults of all ages'
           # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
+          image: shop.jpg
           button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
+            text: Book Now
+            icon: calendar
+            url: https://calendar.app.google/sPvzBFzkmxgMqemh8
     design:
       # Section background color (CSS class)
       css_class: 'bg-gray-100 dark:bg-gray-900'
@@ -115,11 +116,11 @@ sections:
       title: ''
       text: ''
       items:
-        - name: 'Hugo Smith'
-          role: 'Marketing Executive at X'
+        - name: 'Michael'
+          role: 'Google Reviewer'
           # Upload image to `assets/media/` and reference the filename here
-          image: 'testimonial-1.jpg'
-          text: 'Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!'
+          #image: 'testimonial-1.jpg'
+          text: 'Love this place! My whole family gets our hair cut here. Mario is super friendly, prices are reasonable and cuts are always on point. Highly recommend.'
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
@@ -129,7 +130,7 @@ sections:
       text: We accept walk-ins and appointments!<br>To schedule an appointment, call (201) 986-0250 or book below.
       button:
         text: Book Now
-        url: https://hugoblox.com/templates/
+        url: https://calendar.app.google/sPvzBFzkmxgMqemh8
     design:
       card:
         # Card background color (CSS class)
