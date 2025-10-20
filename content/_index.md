@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: Mario's Unisex Barber
+      title: Mario's Unisex Barber Shop
       text: Proudly cutting hair in New Milford, NJ since 2018
       primary_action:
         text: Book Now
