@@ -17,7 +17,7 @@ sections:
         url: https://calendar.app.google/sPvzBFzkmxgMqemh8
         icon: calendar
       secondary_action:
-        text: Menu
+        text: Services
         url: /#menu
       announcement:
         text:
