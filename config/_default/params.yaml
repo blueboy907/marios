@@ -49,6 +49,14 @@ header:
 footer:
   copyright:
     notice: '© {year} Marios Unisex Barber Shop'
+  social_links:
+  - icon: phone
+    url: '123-123-1234'
+    label: Phone
+  - icon: brands/facebook
+    url: https://twitter.com/GetResearchDev
+  - icon: brands/instagram
+    url: https://www.instagram.com/
 
 # Localization
 locale:

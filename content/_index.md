@@ -65,32 +65,32 @@ sections:
           icon: scissors
           description: |
             <br>
-            <p>Kid's Cut: <span style="float: right;"><b>$20</b></span></p>
+            <p>Kid's Cut: <span style="float: right;"><b>$28</b></span></p>
             <p>&nbsp</p>
-            <p>Adult's Cut: <span style="float: right;"><b>$25</b></span></p>
+            <p>Adult's Cut: <span style="float: right;"><b>$31</b></span></p>
             <p>&nbsp</p>
-            <p>Senior's Cut: <span style="float: right;"><b>$20</b></span></p>
+            <p>Senior's Cut: <span style="float: right;"><b>$26</b></span></p>
         - name: <center>Color & Styling</center>
           icon: paint-brush
           description: |
             <br>
-            <p>Color: <span style="float: right;"><b>$45+</b></span></p>
+            <p>Color: <span style="float: right;"><b>$50+</b></span></p>
             <p>&nbsp</p>
-            <p>Blowout (Medium): <span style="float: right;"><b>$30</b></span></p>
-            <p>Blowout (Long): <span style="float: right;"><b>$45+</b></span></p>
+            <p>Blowout (Medium): <span style="float: right;"><b>$46+</b></span></p>
+            <p>Blowout (Long): <span style="float: right;"><b>$56+</b></span></p>
             <p>&nbsp</p>
-            <p>Deep Condition: <span style="float: right;"><b>$20</b></span></p>
+            <p>Deep Condition: <span style="float: right;"><b>$30</b></span></p>
             <p>&nbsp</p>
             <p>Keratin: <span style="float: right;"><b>$150</b></span></p>
         - name: <center>Beard</center>
           icon: face-smile
           description: |
             <br>
-            <p>Beard Trim: <span style="float: right;"><b>$10</b></span></p>
+            <p>Beard Trim: <span style="float: right;"><b>$20</b></span></p>
             <p>&nbsp</p>
-            <p>Beard Shave: <span style="float: right;"><b>$10</b></span></p>
+            <p>Beard Shave: <span style="float: right;"><b>$20</b></span></p>
             <p>&nbsp</p>
-            <p>Beard Shampoo: <span style="float: right;"><b>$5</b></span></p>
+            <p>Beard Shampoo: <span style="float: right;"><b>$7</b></span></p>
   - block: cta-image-paragraph
     id: solutions
     content:
